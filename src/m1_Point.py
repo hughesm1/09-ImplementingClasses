@@ -512,7 +512,7 @@ def run_test_move_by():
             print('** value; in fact, it returned:', check_has_no_return)
         """
     # -------------------------------------------------------------------------
-    # TODO: 7.  Follow the same instructions as in _TODO_ 3 above,
+    # DONE: 7.  Follow the same instructions as in _TODO_ 3 above,
     #           but for the  move_by  method specified above.
     # -------------------------------------------------------------------------
     print()
@@ -1113,6 +1113,7 @@ def run_test_halfway_to():
     print()
     print('Should be: Point(-10.0, 20.0)')
     print('Actual is:', p3.halfway_to(p3))
+
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
